@@ -3,16 +3,16 @@ import { ethers } from "ethers";
 import { io } from "socket.io-client";
 
 // Components
-import Navigation from "./src/components/Navigation";
-import Servers from "./src/components/Servers";
-import Channels from "./src/components/Channels";
-import Messages from "./src/components/Messages";
+import Navigation from "./components/Navigation";
+import Servers from "./components/Servers";
+import Channels from "./components/Channels";
+import Messages from "./components/Messages";
 
 // ABIs
-import Dappcord from "./src/abis/Dappcord.json";
+import Dappcord from "./abis/Dappcord.json";
 
 // Config
-import config from "./src/config.json";
+import config from "./config.json";
 
 // Socket
 const socket = io("ws://localhost:3030");
